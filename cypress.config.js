@@ -6,6 +6,11 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
 
+  projectId: "wutvzt",    // github-->CypressDashboard Integration
+
+
+
+
   // These settings apply everywhere unless overridden
 
   defaultCommandTimeout: 4000,
@@ -15,11 +20,13 @@ module.exports = defineConfig({
    viewportWidth: 1920,
   viewportHeight: 1080,
 
+
   // Viewport settings overridden for component tests
   component: {
     viewportWidth: 500,
     viewportHeight: 500
   },
+
 
 
 

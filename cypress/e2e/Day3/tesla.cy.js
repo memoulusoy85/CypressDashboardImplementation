@@ -8,11 +8,8 @@ describe ('Tesla.com automation testing', ()=>{
 
 beforeEach('Navigate to page to tesla.com',()=>{
 
-   //cy.visit( teslaURL)   // couldn not find models
+   
     cy.visit(teslaURL)
-
-
-
 
 })
  
@@ -20,7 +17,7 @@ beforeEach('Navigate to page to tesla.com',()=>{
 
         onModelSPage.urlVerification()
 
-       // onModelSPage.privacy_Verification()
+       onModelSPage.privacy_Verification()
 
       
 
