@@ -65,16 +65,8 @@ modelScomparePage(){
    expect(text).to.contain(dataCompare.comparePageText[index])
 
   })
-  
-
-
-
 
 }
-
-
-
-
 
 // modelScomparePage(){
 //     cy.contains('Compare').click()
