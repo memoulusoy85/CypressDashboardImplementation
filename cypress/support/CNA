@@ -1,0 +1,28 @@
+export class functions{
+
+    function (){
+
+        cy.get('[type="radio"]').then($el=>{    //if there is web element more than one, use then and $el(any element)
+
+            // cy.wrap(radioButtons).first()
+            // .check()
+            // .should('be.checked')
+    
+            for (var i=0; i<=$el.length-1;i++){
+    
+                cy.wrap($el).eq(i)
+                .check({force:true})
+                .should('be.visible')
+                 cy.wait(500)
+    
+                 console.log(i)
+            }
+    
+    
+           })
+    }
+
+
+}
+
+export const fun1 = new functions;

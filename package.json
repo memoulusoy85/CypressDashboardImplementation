@@ -1,0 +1,16 @@
+{
+  "name": "democypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run -b chrome --headless --spec 'cypress/e2e/DAY1/checkboxes.spec.js'",
+    "test1": "cypress run -b chrome --headless --spec 'cypress/e2e/DAY1'"
+  },
+  "author": "mehmet",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.0.2",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
