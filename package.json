@@ -7,7 +7,8 @@
     "test": "cypress run -b chrome --headless --spec 'cypress/e2e/DAY1/checkboxes.spec.js'",
     "test1": "cypress run -b chrome --headless --spec 'cypress/e2e/DAY1'",
 
-    "teslaModelS":"npx cypress run --record --key 684b54d3-dbb4-4712-805a-383d2f5ad3ef --spec 'cypress/e2e/Day3/tesla.cy.js'  "
+    "teslaModelS":"npx cypress run --record --key 684b54d3-dbb4-4712-805a-383d2f5ad3ef --spec 'cypress/e2e/Day3/tesla.cy.js'",
+    "githubPage":"npx cypress run --record --key 684b54d3-dbb4-4712-805a-383d2f5ad3ef --spec 'cypress/e2e/Day4/github.cy.js'"
 
   
   },

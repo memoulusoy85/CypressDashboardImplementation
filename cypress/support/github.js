@@ -2,19 +2,22 @@ import { githubLoginURL } from "./authentication.constant"
 
 export  class github{
 
-verifySignInUrl(){
+        verifySignInUrl(){
 
-    cy.contains('Sign in').click()
-    cy.url().should('eq',githubLoginURL)
-}
-
-
-navigatetoMainpage(){
-
-    cy.go('back')
+            cy.wait(3000)
+            cy.contains('Sign in').click()
+            cy.wait(3000)
+            cy.url().should('eq', githubLoginURL)
+        }
 
 
-}
+        navigatetoMainpage(){
+            
+            cy.wait(3000)
+
+            cy.go('back')
+
+        }
 
 
 }

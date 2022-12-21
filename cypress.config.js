@@ -12,6 +12,7 @@ module.exports = defineConfig({
 
 
   // These settings apply everywhere unless overridden
+  pageLoadTimeout: 6000,
 
   defaultCommandTimeout: 4000,
   //viewportWidth: 1000,
@@ -39,7 +40,9 @@ module.exports = defineConfig({
 
     
     baseUrl:"https://www.wikipedia.org/",
-  // testIsolation:	false
+   testIsolation:	false
     
   },
+
+
 });
