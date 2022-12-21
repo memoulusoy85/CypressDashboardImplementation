@@ -13,4 +13,9 @@ export const model3URL='https://www.tesla.com/model3'
 export const compareURL='https://www.tesla.com/compare'
 
 
+
+export const githubURL='https://github.com/'
+export const  githubLoginURL='https://github.com/login'
+
+
 export const loginpageerrormessage="You are not allowed to access this page at this time"
